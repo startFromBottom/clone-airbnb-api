@@ -1,6 +1,7 @@
-from rest_framework.views import APIView
+# from rest_framework.views import APIView
 from rest_framework.generics import ListAPIView, RetrieveAPIView
-from rest_framework.response import Response
+
+# from rest_framework.response import Response
 from .models import Room
 from .serializers import RoomSerializer, BigRoomSerializer
 
