@@ -38,7 +38,6 @@ class UserSerializer(serializers.ModelSerializer):
         )
 
     def validate_first_name(self, data):
-        print(data)
         return data.upper()
 
     def create(self, validated_data):
